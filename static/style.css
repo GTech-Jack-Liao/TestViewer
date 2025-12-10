@@ -548,6 +548,7 @@ h3 {
 .sidebar .menu li,
 .sidebar .bottom-menu li {
   margin: 0.8rem 0;
+  padding: 6px 16px;
 }
 .sidebar .menu li.hide {
   display: none;
