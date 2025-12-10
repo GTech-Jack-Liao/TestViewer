@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2c3e50;
+    color: white;
+    padding: 8px 16px;
+}
+
+.left-group {
+    display: flex;
+    align-items: center;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+.menu-icon,
+.logo-img,
+.user-icon {
+    height: 28px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: #34495e;
+    color: white;
+    height: calc(100vh - 48px);
+    padding-top: 10px;
+}
+
+.sidebar .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .menu li {
+    padding: 10px 16px;
+}
+
+.sidebar .menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar .group-title {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 12px;
+}
+
+#main-content {
+    padding: 20px;
+    flex-grow: 1;
+}
