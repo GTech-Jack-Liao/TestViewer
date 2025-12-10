@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VDS MQTT Viewer (Demo)</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body class="main-body">
+
+    <!-- Top Title Bar -->
+    <div class="topbar">
+        <div class="left-group">
+            <button id="menuToggle" class="menu-toggle" onclick="toggleSidebar()">
+                <img src="static/menu-icon.svg" alt="Menu" class="menu-icon">
+            </button>
+            <div class="logo">
+                <img src="static/logo.png" alt="Logo" class="logo-img">
+            </div>
+        </div>
+        <div class="title" id="model_name">Demo Viewer</div>
+
+        <div class="user-actions">
+            <img src="static/user_icon.png" alt="User" class="user-icon">
+            <span class="username">DemoUser</span>
+        </div>
+    </div>
+
+    <!-- Main layout -->
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <ul class="menu">
+                <li class="group-title">Device Status</li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Device Info</a></li>
+
+                <li class="group-title">Data Viewer</li>
+                <li><a href="#">MQTT Viewer</a></li>
+                <li><a href="#">OPCUA Viewer</a></li>
+
+                <li class="group-title">Device Settings</li>
+                <li><a href="#">Config Settings</a></li>
+                <li><a href="#">MQTT Settings</a></li>
+                <li><a href="#">OPC UA Settings</a></li>
+                <li><a href="#">Ethernet Settings</a></li>
+                <li><a href="#">Datetime Settings</a></li>
+
+                <li class="group-title">Device Operation</li>
+                <li><a href="#">Device Update</a></li>
+                <li><a href="#">Device Control</a></li>
+            </ul>
+        </div>
+
+        <!-- Page -->
+        <div id="main-content">
+            <h1>Welcome to VDS MQTT Viewer (Demo)</h1>
+            <p>This is a static sample page for GitHub Pages.</p>
+            <p>No backend, no dynamic loading. Just UI structure.</p>
+        </div>
+    </div>
+
+    <script src="static/main.js"></script>
+
+</body>
+</html>
